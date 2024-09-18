@@ -1,0 +1,56 @@
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 30px 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.inputsGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  background-color: rgb(253, 253, 253);
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+  caret-color: rgb(93, 195, 236);
+}
+
+.input:hover,
+.input:active,
+.input:focus {
+  border-color: rgb(93, 195, 236);
+  transition: 0.5s ease-in;
+}
+
+.select {
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  background-color: rgb(253, 253, 253);
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+  appearance: none;
+}
+
+.select:active,
+.select:hover,
+.select:focus {
+  border-color: rgb(93, 195, 236);
+  transition: 0.5s ease-in;
+}
